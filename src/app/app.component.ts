@@ -6,7 +6,18 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  buttonClicked() {
-    console.log('Button clicked')
+
+  cardOrange = {
+    plantType: 'Simples',
+    planPrice: 100,
+  }
+
+  cardPurple = {
+    plantType: 'Completo',
+    planPrice: 200,
+  }
+
+  onCardButtonClicked() {
+    console.log('onCardButtonClicked');
   }
 }
